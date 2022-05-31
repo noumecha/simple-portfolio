@@ -1,0 +1,15 @@
+@import "../var";
+@import "../mixins";
+@import "../atomes/line.scss";
+@import "../molecules/footer__card.scss";
+@import "../atomes/icon.scss";
+@import "../molecules/line_icon.scss";
+@import "../molecules/copyright.scss";
+.footer__section {
+    background-color: $tmc-bg-color;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    overflow: hidden;
+}

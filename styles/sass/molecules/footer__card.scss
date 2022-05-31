@@ -1,0 +1,39 @@
+@import "../var";
+.footer__card__all {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: $tmc-content-padding;
+    margin-bottom: $tmc-content-padding;
+    @include XS {
+        margin: 0;
+    }
+    @include MO {
+        margin-top: 0;
+    }
+    .icon__all{
+        margin-top: $tmc-padding;
+        margin-bottom: $tmc-padding;
+    }
+    .title__all {
+        color: $tmc-color-btn;
+        font-size: $tmc-h2-font-size-md;
+        margin-bottom: $tmc-padding;
+        text-transform: uppercase;
+        &:hover {
+            color: $tmc-color-prim;
+        }
+    }
+    .paragraph__all {
+        color: $tmc-color-btn;
+        font-size: $tmc-p-font-size-md;
+        text-overflow: ellipsis;
+        margin-bottom: $tmc-padding;
+        font-weight: $tmc-font-weight-line;
+        text-align: justify-center;
+    }
+}

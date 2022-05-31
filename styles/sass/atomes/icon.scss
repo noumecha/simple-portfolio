@@ -1,0 +1,7 @@
+@import "../var";
+@import "../mixins";
+.icon__all {
+    &:hover svg {
+        color: $tmc-color-sec;
+    }
+}

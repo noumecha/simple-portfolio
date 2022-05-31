@@ -1,0 +1,17 @@
+@import "../var";
+@import "../mixins";
+.copyright__all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: $tmc-content-padding;
+    color: $tmc-color-btn;
+    .paragraph__all {
+        font-size: $tmc-font-size;
+        font-weight: $tmc-font-weight-line;
+        a {
+            font-weight: normal;
+        }
+    }
+}

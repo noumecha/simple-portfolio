@@ -1,0 +1,13 @@
+@import "../var";
+@import "../mixins";
+.line_icon__all {
+    margin-top: $tmc-content-padding;
+    margin-bottom: $tmc-content-padding;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .icon__all {
+        padding: $tmc-content-padding/2;
+    }
+}
