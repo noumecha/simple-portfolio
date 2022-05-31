@@ -1,0 +1,9 @@
+@import "../var";
+@import "../mixins";
+.paragraph__all {
+    font-size: $tmc-p-font-size;
+    font-weight: $tmc-simple-weight;
+    @include XS {
+        font-size: $tmc-p-font-size-md;
+    }
+}

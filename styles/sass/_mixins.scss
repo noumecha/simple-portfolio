@@ -1,0 +1,53 @@
+// variable pour les BP
+
+$sw: 480px;
+$mw: 768px;
+$lw: 1024px;
+
+// extra-small
+@mixin XS {
+    @media (max-width: #{$sw - 1px}) {
+        @content;
+    }
+}
+
+// small-down
+@mixin SD {
+    @media (max-width: #{mw - 1px}){
+        @content;
+    }
+}
+
+// small-only
+@mixin SO {
+    @media (min-width: #{sw}) and (max-width: #{$mw - 1px}){
+        @content;
+    }
+}
+
+// small-up
+@mixin SU {
+    @media (min-width: #{$sw}){
+        @content;
+    }
+}
+
+// medium only 
+@mixin MO {
+    @media (min-width: #{$mw}) and (max-width: #{$lw - 1px}){
+        @content;
+    }
+}
+// Medium up 
+@mixin MU {
+    @media (min-width: #{$mw}){
+        @content;
+    }
+}
+
+// Large
+@mixin LG {
+    @media(min-width: #{$lw}){
+        @content;
+    }
+}

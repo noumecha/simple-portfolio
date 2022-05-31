@@ -1,0 +1,56 @@
+@import "../var";
+@import "../mixins";
+@import "../atomes/button_round.scss";
+@import "../atomes/paragraph.scss";
+@import "../atomes/title.scss";
+@import "../molecules/ban.scss";
+@import "../atomes/img_bg.scss";
+.hero__section {
+    position: relative;
+    margin: 0;
+    padding-bottom: $tmc-section-padding;
+    overflow: hidden;
+    height: 600px;
+    background-image: url("../../../assets/images/bg-1.jpg");
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $tmc-color-btn;
+    @include XS {
+        height: 500px;
+    }
+    .title__all {
+        padding-bottom: $tmc-content-padding;
+        @include XS {
+            padding-bottom: $tmc-content-padding-md;
+        }
+    }
+    .paragraph__all {
+        padding-bottom: $tmc-content-padding;
+        @include XS {
+            padding-bottom: $tmc-content-padding-md;
+        }
+    }
+    .btn-cont {
+        padding-bottom: $tmc-content-padding;
+        @include XS {
+            padding-bottom: $tmc-content-padding-md;
+        }
+    }
+    .ban__all {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        .paragraph__all {
+            padding-bottom: $tmc-content-padding/2;
+        }
+    }
+    .img_bg__all {
+        z-index: 3;
+    }
+}

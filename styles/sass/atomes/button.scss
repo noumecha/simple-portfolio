@@ -1,0 +1,12 @@
+@import "../var.scss";
+.button {
+    color: $tmc-color-btn;
+    font-size: $tmc-font-size;
+    font-weight: $tmc-font-weight;
+    text-transform: capitalize;
+    border: none;
+    &:hover {
+        color: $tmc-color-btn !important;
+        background-color: $tmc-color-sec !important;
+    }
+}

@@ -1,0 +1,20 @@
+@import "../var";
+.ban__all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: $tmc-color-prim;
+    overflow: hidden;
+    color: white;
+    text-transform: capitalize;
+    .paragraph__all {
+        padding-top: $tmc-content-padding/2;
+        padding-bottom: $tmc-content-padding/2;
+        font-weight: $tmc-font-weight;
+        @include XS {
+            padding: $tmc-content-padding-md;
+            text-align: center;
+        }
+    }
+}
