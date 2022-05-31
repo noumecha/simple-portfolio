@@ -1,12 +1,10 @@
 @import "../var";
-.img_bg__all {
+.img_bg__all{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
     img {
-        position: relative;
-        padding: 0;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
+        width: 100%;
     }
 }

@@ -44,14 +44,13 @@
         padding: 15px;
         text-align: center; } }
 
-.img_bg__all img {
+.img_bg__all {
   position: relative;
-  padding: 0;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  height: 100%; }
+  right: 0; }
+  .img_bg__all img {
+    width: 100%; }
 
 .hero__section {
   position: relative;
@@ -170,6 +169,16 @@
   right: 0;
   position: relative;
   overflow: hidden; }
+
+.icon__all:hover svg {
+  color: #1E90FF; }
+
+.about__section {
+  position: relative;
+  padding-bottom: 70px;
+  background-image: url("../../../assets/images/brainCode().jpg");
+  height: 600px;
+  width: 100%; }
 
 html, body {
   margin: 0;

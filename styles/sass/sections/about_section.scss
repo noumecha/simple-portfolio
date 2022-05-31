@@ -1,0 +1,11 @@
+@import "../var";
+@import "../mixins";
+@import "../atomes/icon.scss";
+.about__section {
+    position: relative;
+    padding-bottom: $tmc-section-padding;
+    background-image: url("../../../assets/images/brainCode\(\).jpg");
+    height: 600px;
+    width: 100%;
+
+}
