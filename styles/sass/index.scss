@@ -1,5 +1,15 @@
+@import "var";
+@import "./sections/hero_section";
+@import "./sections/footer_section.scss";
+
 html , body {
     margin: 0;
     padding: 0;
 }
-@import "./sections/hero_section";
+a {
+    text-decoration: none;
+    color: $tmc-color-btn;
+    &:hover {
+        color: $tmc-color-sec;
+    }
+}
