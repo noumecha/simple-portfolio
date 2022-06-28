@@ -9,8 +9,8 @@
     color: white;
     text-transform: capitalize;
     .paragraph__all {
-        padding-top: $tmc-content-padding/2;
-        padding-bottom: $tmc-content-padding/2;
+        padding-top: $tmc-content-padding * 0.5;
+        padding-bottom: $tmc-content-padding * 0.5;
         font-weight: $tmc-font-weight;
         @include XS {
             padding: $tmc-content-padding-md;
